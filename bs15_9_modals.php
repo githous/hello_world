@@ -11,7 +11,7 @@ function do_before() { return "Added text as a prefix" };
 $(document).ready(function() {
 // SCRIPT SPECIFIC CODE
 // SCRIPT STANDARD BOILERPLATE
-$('h4#code_heading').text("HERE'S THE RELEVANT CODE:").before(do_before());
+$('h4#code_heading').text("HERE'S THE REVANT CODE:").before(do_before());
 });
 </script>
 <h1>BS15_9_MODALS.PHP</h1>
